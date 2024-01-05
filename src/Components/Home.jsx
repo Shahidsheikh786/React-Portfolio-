@@ -2,7 +2,7 @@
 import "./styles/Home.scss"
 import { TypeAnimation } from 'react-type-animation';
 import {motion } from "framer-motion"
-
+import resume from "../../public/resume.png"
 
 const Home = () => {
   return (
@@ -48,7 +48,7 @@ const Home = () => {
   <p> Dedicated, ambitious React developer ready to learn and grow.</p>
   
   <button id="hireMe-btn">Hire me</button>
-  <button id="CV-btn">Download CV </button>
+   <a href={resume} download >  <button id="CV-btn">Download CV </button> </a> 
   </motion.div>
   
   <motion.div initial={{scale:0}}
