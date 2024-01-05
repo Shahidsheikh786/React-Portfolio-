@@ -5,6 +5,10 @@ import {motion } from "framer-motion"
 import resume from "../../public/resume.png"
 
 const Home = () => {
+const scrollToContact  = () =>{
+      const element = document.body;
+    element.scrollIntoView({ behavior: 'smooth', block: 'end', inline: 'nearest' });
+}
   return (
   <div className="Home">
   
@@ -47,7 +51,7 @@ const Home = () => {
   
   <p> Dedicated, ambitious React developer ready to learn and grow.</p>
   
-  <button id="hireMe-btn">Hire me</button>
+  <button id="hireMe-btn" onClick={scrollToContact}>Hire me</button>
    <a href={resume} download >  <button id="CV-btn">Download CV </button> </a> 
   </motion.div>
   
