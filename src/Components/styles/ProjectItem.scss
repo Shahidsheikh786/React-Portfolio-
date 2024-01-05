@@ -1,0 +1,49 @@
+
+.ProjectItem{
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #dadada;
+  border-radius: 10px;
+  
+  position: relative;
+  overflow: hidden;
+  
+  .overly{
+    background: black;
+    opacity: 70%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all ease .5s;
+    height: 0;
+    i{
+      font-size: 40px;
+      border: 1px solid #dadada;
+      border-radius: 50%;
+      padding: 10px;
+      cursor: pointer;
+      
+    }
+  }
+  
+  img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin: 10px 0;
+  }
+  
+}
+
+.ProjectItem:hover .overly{
+ 
+  opacity: 70%;
+  height: 100%;
+}

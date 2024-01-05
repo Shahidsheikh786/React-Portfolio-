@@ -1,0 +1,14 @@
+.Header{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  align-items: center;
+  border-bottom: .5px solid #dadada;
+  
+  .logo{
+    font-size: 27px;
+    font-weight: 700;
+    
+  }
+
+}

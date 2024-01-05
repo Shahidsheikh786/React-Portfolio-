@@ -1,0 +1,42 @@
+.About{
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+ 
+ 
+ .image img{
+   height: 250px;
+   width: 250px;
+   object-fit: contain;
+ }
+ 
+ 
+  .content{
+    margin: 0 20px ;
+    
+   .content-text{
+     color: #9f9f9f;
+     font-size: 12px;
+     line-height: 16px;
+     margin: 20px 0;
+     
+   }
+   
+   .SEC-area{
+     display: flex;
+     gap: 10px;
+     font-size: 100px;
+     font-weight: 700;
+     position: relative;
+     margin: 15px 0;
+     
+   }
+   .dataContent{
+       margin: 15px;
+       padding: 10px 0;
+       font-size: 14px;
+     }
+  }
+}
