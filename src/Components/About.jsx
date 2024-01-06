@@ -40,7 +40,7 @@ const About = () => {
       title : "Certificates",
       content : (
         <ul>
-       <li>Don have Certificates </li>
+       <li>Don't have Certificates </li>
        </ul>
         )
     },
