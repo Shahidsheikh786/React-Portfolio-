@@ -22,13 +22,6 @@ let ProjectsData = [
     diployedUrl : "https://shahidsheikh786.github.io/Weather-app/",
     tag : ["All","Minor"]
   },
-  {
-    id: 3,
-    name : "social media Website",
-    imageUrl : img_1,
-    diployedUrl : "",
-    tag : ["All","Minor"]
-  },
   
   ]
   
