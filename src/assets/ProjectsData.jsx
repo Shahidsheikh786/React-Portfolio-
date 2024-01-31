@@ -9,7 +9,7 @@ import htmlEcommerceImg from "./ecommerce-2.jpeg"
 import quotesImg from "./quotes.jpeg"
 import todoListImg from "./todoList.jpeg"
 import watherImg from "./wather.jpeg"
-import imgSearchImg from ".img-search.jpeg"
+import imgSearchImg from "./img-search.jpeg"
 
 let ProjectsData = [
 
