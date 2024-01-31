@@ -18,7 +18,7 @@ let ProjectsData = [
     name : "search-engine Website",
     imageUrl : imgSearchImg,
     diployedUrl : "https://shahidsheikh786.github.io/search-engine/",
-   tag : ["All","Mejor"]
+   tag : ["All","Minor"]
   },
   {
     id: 2,
