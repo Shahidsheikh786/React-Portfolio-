@@ -2,8 +2,9 @@
 
 import img_1 from "./about-image.png"
 import img_2 from "./Ecommerce-Project.jpeg"
-import img_3 from "./eCommerce.jpg"
-
+import img_3 from "./ecommerce.jpeg"
+import img_4 from "./fiver.png"
+import img_5 from "./blog-app.jpeg"
 
 
 let ProjectsData = [
@@ -29,7 +30,20 @@ let ProjectsData = [
     diployedUrl : "https://react-ecommerce-nine-phi.vercel.app/",
     tag : ["All","Mejor"]
   },
-  
+  {
+    id: 4,
+    name : "Fiverr clone By React js",
+    imageUrl : img_4,
+    diployedUrl : "https://fiverr-clone-orpin.vercel.app/",
+    tag : ["All","Mejor"]
+  },
+  {
+    id: 5,
+    name : "Blog app By React js",
+    imageUrl : img_5,
+    diployedUrl : "https://blog-app-teal-one.vercel.app/",
+    tag : ["All","Mejor"]
+  },
   ]
   
   
